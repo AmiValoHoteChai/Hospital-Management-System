@@ -1,3 +1,7 @@
+
+Folder highlights
+C/C++ source and header files define utility and UI functions for a Hospital Management System, including input validation and screen control.
+
 #ifndef UTILS_H
 #define UTILS_H
 
@@ -8,11 +12,6 @@
  * Clears the input buffer to prevent leftover characters.
  */
 void utils_clear_input_buffer(void);
-
-/**
- * Pauses the program execution until the user presses a key.
- */
-void utils_pause(void);
 
 /**
  * Scans an integer value from the user with validation.
@@ -62,6 +61,7 @@ char* utils_get_string(char *str, size_t size);
  * Validates if a phone number is in correct format.
  * 
  * @param phone The phone number string to validate.
+ *
  * @return true if valid, false otherwise.
  */
 bool utils_is_valid_phone(const char *phone);
@@ -70,6 +70,7 @@ bool utils_is_valid_phone(const char *phone);
  * Validates if an email contains @ and .
  * 
  * @param email The email string to validate.
+ *
  * @return true if valid, false otherwise.
  */
 bool utils_is_valid_email(const char *email);
@@ -78,8 +79,18 @@ bool utils_is_valid_email(const char *email);
  * Validates if a name contains only letters and spaces.
  * 
  * @param name The name to validate.
+ *
  * @return true if valid name, false otherwise.
  */
 bool utils_is_valid_name(const char *name);
+
+/**
+ * Converts a string to uppercase in-place.
+ *
+ * @param str The string to convert.
+ *
+ * @return The uppercase string.
+ */
+char* utils_str_to_upper(char *str);
 
 #endif

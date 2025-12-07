@@ -1,3 +1,7 @@
+
+Folder highlights
+C/C++ source and header files define utility and UI functions for a Hospital Management System, including input validation and screen control.
+
 #include <stdio.h>
 #include "../include/utils.h"
 #include <stdbool.h>
