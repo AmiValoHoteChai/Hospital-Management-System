@@ -25,23 +25,23 @@ void ui_pause(void) {
 
 void ui_print_header(const char *title) {
     ui_clear_screen();
-    printf(BOLD MAGENTA "%s\n" RESET, title);
+    printf(MAGENTA "%s\n" RESET, title);
 }
 
 void ui_print_success(const char *message) {
-    printf(BOLD GREEN "%s" RESET "\n", message);
+    printf(GREEN "%s" RESET "\n", message);
 }
 
 void ui_print_error(const char *message) {
-    printf(BOLD RED "%s" RESET "\n", message);
+    printf(RED "%s" RESET "\n", message);
 }
 
 void ui_print_warning(const char *message) {
-    printf(BOLD YELLOW "%s" RESET "\n", message);
+    printf(YELLOW "%s" RESET "\n", message);
 }
 
 void ui_print_info(const char *message) {
-    printf(BOLD BLUE "%s" RESET "\n", message);
+    printf(BLUE "%s" RESET "\n", message);
 }
 
 

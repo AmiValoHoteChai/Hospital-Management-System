@@ -1,7 +1,3 @@
-
-Folder highlights
-C/C++ source and header files define utility and UI functions for a Hospital Management System, including input validation and screen control.
-
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -10,6 +6,11 @@ C/C++ source and header files define utility and UI functions for a Hospital Man
 void utils_clear_input_buffer(void) {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
+}
+
+void utils_pause(void) {
+    printf("\nPress any key to continue...");
+    getchar();
 }
 
 int utils_get_int(void) {
@@ -121,6 +122,14 @@ bool utils_is_valid_name(const char *name) {
     }
     
     return true;
+}
+
+char* utils_str_to_upper(char *str) {
+    if (str == NULL) return NULL;
+    for (int i = 0; str[i] != '\0'; i++) {
+        str[i] = toupper(str[i]);
+    }
+    return str;
 }
 
 char* utils_str_to_upper(char *str) {
