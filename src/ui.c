@@ -1,6 +1,10 @@
-
-Folder highlights
-C/C++ source and header files define utility and UI functions for a Hospital Management System, including input validation and screen control.
+/**
+ * @file ui.c
+ * @brief User interface functions for Healthcare Management System
+ * 
+ * This file contains the implementation of user interface functions
+ * used throughout the HMS application.
+ */
 
 #include <stdio.h>
 #include <stdlib.h>

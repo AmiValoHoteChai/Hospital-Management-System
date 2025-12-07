@@ -1,6 +1,9 @@
-
-Folder highlights
-C/C++ source and header files define utility and UI functions for a Hospital Management System, including input validation and screen control.
+/**
+ * @file utils.h
+ * @brief Utility functions for Healthcare Management System
+ * 
+ * This header defines all shared utility functions used throughout the HMS application.
+ */
 
 #ifndef UTILS_H
 #define UTILS_H
