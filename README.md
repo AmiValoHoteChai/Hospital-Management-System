@@ -9,18 +9,22 @@ A console-based Hospital Management System built in C. User-friendly interface.
 - **Doctor Management** - Coming soon
 - **Data Persistence** - File-based storage (coming soon)
 
-## Interface Desing
+## Interface Design
 
 > Beautiful ASCII art interface with colored console output
 
-### Main Menu
-![Main Menu](assets/screenshots/main_menu.png)
-
-### Admin Portal
-![Admin Portal](assets/screenshots/admin_portal.png)
-
-### CLI Usage
-![CLI Usage](assets/screenshots/cli_usage.png)
+<table>
+<tr>
+<td align="center"><b>Main Menu</b></td>
+<td align="center"><b>Admin Portal</b></td>
+<td align="center"><b>CLI Usage</b></td>
+</tr>
+<tr>
+<td><img src="assets/screenshots/main_menu.png" width="280" alt="Main Menu"></td>
+<td><img src="assets/screenshots/admin_portal.png" width="280" alt="Admin Portal"></td>
+<td><img src="assets/screenshots/cli_usage.png" width="280" alt="CLI Usage"></td>
+</tr>
+</table>
 
 ## Build & Run
 
