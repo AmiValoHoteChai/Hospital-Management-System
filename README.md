@@ -9,6 +9,19 @@ A console-based Hospital Management System built in C. User-friendly interface.
 - **Doctor Management** - Coming soon
 - **Data Persistence** - File-based storage (coming soon)
 
+## Interface Desing
+
+> Beautiful ASCII art interface with colored console output
+
+### Main Menu
+![Main Menu](assets/screenshots/main_menu.png)
+
+### Admin Portal
+![Admin Portal](assets/screenshots/admin_portal.png)
+
+### CLI Usage
+![CLI Usage](assets/screenshots/cli_usage.png)
+
 ## Build & Run
 
 ### Windows
@@ -86,6 +99,7 @@ gcc -o tests/utils_test tests/utils_test.c src/utils.c
 ## Project Structure
 
 ```
+├── assets/      # Assets like screenshots
 ├── data/        # Data storage
 ├── docs/        # Documentation
 ├── include/     # Header files
