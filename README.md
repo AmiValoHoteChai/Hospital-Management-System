@@ -6,8 +6,8 @@ A console-based Hospital Management System built in C. User-friendly interface.
 
 - **Authentication** - Role-based access (Admin, Doctor, Receptionist)
 - **Patient Management** - Add, view, search, update, delete patients
-- **Doctor Management** - Coming soon
-- **Data Persistence** - File-based storage (coming soon)
+- **Doctor Management** - Add, view, search, update, delete patients
+- **Data Persistence** - File-based storage
 
 ## Interface Design
 
